@@ -1,6 +1,6 @@
 # Restaurant Recommendation System Using Zomato Reviews
 
-![Alt text](https://camo.githubusercontent.com/4a5d4ec3faac47eef2e7b3d9456cd2b98006f733a6b9b001d9c998cd93d00f7a/68747470733a2f2f63646e2e627573696e65737374726176656c6c65722e636f6d2f77702d636f6e74656e742f75706c6f6164732f666c792d696d616765732f3935313034372f7a6f6d61746f2d696e66696e6974792d64696e696e672d393136783531362e6a7067)
+![Alt text](https://almablog-media.s3.ap-south-1.amazonaws.com/Frame_20_1a75195609.png)
 
 
 ## 📖 Overview
