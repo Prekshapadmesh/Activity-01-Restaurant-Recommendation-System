@@ -29,6 +29,7 @@ zomato = zomato.rename(columns={'approx_cost(for two people)': 'cost',
                                 'listed_in(type)': 'type', 
                                 'listed_in(city)': 'city'})
 
+#amrutha modification
 # Data transformations for 'cost' column
 # Removing commas and converting the 'cost' column to float
 zomato['cost'] = zomato['cost'].apply(lambda x: x.replace(',', '')).astype(float)
