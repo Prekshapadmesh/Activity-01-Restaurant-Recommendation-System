@@ -9,17 +9,26 @@ Welcome to the Restaurant Recommendation System project! This system leverages u
 
 ## 🚀 Features
 
-Data Preprocessing: Clean and prepare raw Zomato data for analysis.
+Data Cleaning:
+Cleans and prepares raw Zomato data for analysis, ensuring the data is free from inconsistencies and ready for processing.
 
-Text Processing: Transform reviews into numerical data using TF-IDF vectorization.
+Text Processing:
+Transforms reviews into numerical data using TF-IDF vectorization, enabling the model to understand and analyze textual feedback effectively.
 
-Recommendation Engine: Utilize cosine similarity to recommend restaurants based on review similarity.
+Recommendation Engine:
+Builds a recommendation model that utilizes cosine similarity to suggest restaurants based on review similarities, providing users with tailored dining options.
 
-Geospatial Heatmap Analysis: Visualize the distribution of restaurants across various locations using geospatial heatmaps. This analysis helps identify popular dining areas, showcasing hotspots for various types of cuisine and overall restaurant density. By integrating geographic data, users can gain insights into the best locations for dining based on their preferences.
+Geospatial Heatmap Analysis:
+Visualizes the distribution of restaurants across various locations using geospatial heatmaps. This analysis helps identify popular dining areas, showcasing hotspots for different cuisines and overall restaurant density.
+
+Restaurant Geospatial Visualization:
+Presents an interactive geospatial heatmap of restaurants, allowing users to explore the density and variety of dining options in different locations.
+
 
 ## 📑 Data
 
-📂 Explore the Datasets: Access all the datasets used in this project [here](https://drive.google.com/drive/folders/1GRGTWdlpkBONRBBW7uWcPuJYYNLDJMqF?usp=sharing).
+📂 Explore the Datasets: 
+Access all the datasets used in this project [here](https://drive.google.com/drive/folders/1GRGTWdlpkBONRBBW7uWcPuJYYNLDJMqF?usp=sharing).
 Dive into the raw, cleaned, and processed data to see how each contributes to enhancing the restaurant recommendation experience!
 
 
