@@ -30,8 +30,12 @@ zomato = zomato.rename(columns={'approx_cost(for two people)': 'cost',
                                 'listed_in(city)': 'city'})
 
 # Data transformations for 'cost' column
-zomato['cost'] = zomato['cost'].astype(str)
-zomato['cost'] = zomato['cost'].apply(lambda x: x.replace(',', '.')).astype(float)
+# Removing commas and converting the 'cost' column to float
+zomato['cost'] = zomato['cost'].apply(lambda x: x.replace(',', '')).astype(float)
+
+# Scaling 'cost' between 1 and 10
+scaler = MinMaxScaler(feature_range=(1, 10))
+zomato['cost'] = scaler.fit_transform(zomato[['cost']])
 
 # Preksha's modification: Replace comma and round the cost to nearest integer
 zomato['cost'] = zomato['cost'].apply(lambda x: x.replace(',', '.')).astype(float).round(0)
