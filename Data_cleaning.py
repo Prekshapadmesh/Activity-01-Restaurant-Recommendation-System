@@ -33,6 +33,9 @@ zomato = zomato.rename(columns={'approx_cost(for two people)': 'cost',
 zomato['cost'] = zomato['cost'].astype(str)
 zomato['cost'] = zomato['cost'].apply(lambda x: x.replace(',', '.')).astype(float)
 
+# Preksha's modification: Replace comma and round the cost to nearest integer
+zomato['cost'] = zomato['cost'].apply(lambda x: x.replace(',', '.')).astype(float).round(0)
+     
 # Removing 'NEW' and '-' from 'rate' column
 zomato = zomato.loc[zomato.rate != 'NEW']
 zomato = zomato.loc[zomato.rate != '-'].reset_index(drop=True)
