@@ -21,8 +21,11 @@ Geospatial Heatmap Analysis: Visualize the distribution of restaurants across va
 
 zomato.csv: Raw dataset with restaurant information and reviews from Kaggle.
 
-cleaned_data.csv: Cleaned dataset for analysis and recommendation after preprocessing.
+cleaned_data.csv: Clean dataset for analysis and recommendation after preprocessing.
 
 processed_data.csv: Dataset after text preprocessing.
 
-Drive link: https://drive.google.com/drive/folders/1GRGTWdlpkBONRBBW7uWcPuJYYNLDJMqF?usp=sharing
+📂 Explore the Datasets: Access all the datasets used in this project [here](https://drive.google.com/drive/folders/1GRGTWdlpkBONRBBW7uWcPuJYYNLDJMqF?usp=sharing).
+Dive into the raw, cleaned, and processed data to see how each contributes to enhancing the restaurant recommendation experience!
+
+
